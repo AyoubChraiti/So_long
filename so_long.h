@@ -6,7 +6,7 @@
 /*   By: achraiti <achraiti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/19 12:30:53 by achraiti          #+#    #+#             */
-/*   Updated: 2023/12/30 19:12:41 by achraiti         ###   ########.fr       */
+/*   Updated: 2024/02/18 15:40:07 by achraiti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,13 +19,6 @@
 # include <mlx.h>
 # include <fcntl.h>
 # include "libft/libft.h"
-
-# define KEY_UP		126
-# define KEY_DOWN	125
-# define KEY_LEFT	123
-# define KEY_RIGHT	124
-# define TILE_SIZE	32
-# define MOVE_STEP	32
 
 typedef struct map
 {

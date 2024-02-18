@@ -6,7 +6,7 @@
 /*   By: achraiti <achraiti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/23 10:14:48 by achraiti          #+#    #+#             */
-/*   Updated: 2024/01/01 12:02:52 by achraiti         ###   ########.fr       */
+/*   Updated: 2024/02/18 16:14:46 by achraiti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,11 @@
 
 void	load_images(t_info *i)
 {
-	i->wall = mlx_xpm_file_to_image(i->mlx, "image/1.xpm", &i->imgw, &i->imgh);
-	i->floor = mlx_xpm_file_to_image(i->mlx, "image/0.xpm", &i->imgw, &i->imgh);
-	i->colle = mlx_xpm_file_to_image(i->mlx, "image/c.xpm", &i->imgw, &i->imgh);
-	i->p = mlx_xpm_file_to_image(i->mlx, "image/p.xpm", &i->imgw, &i->imgh);
-	i->exit = mlx_xpm_file_to_image(i->mlx, "image/e.xpm", &i->imgw, &i->imgh);
+	i->wall = mlx_xpm_file_to_image(i->mlx, "image/walls.xpm", &i->imgw, &i->imgh);
+	i->floor = mlx_xpm_file_to_image(i->mlx, "image/floor.xpm", &i->imgw, &i->imgh);
+	i->colle = mlx_xpm_file_to_image(i->mlx, "image/coins/coin1.xpm", &i->imgw, &i->imgh);
+	i->p = mlx_xpm_file_to_image(i->mlx, "image/player/chilling.xpm", &i->imgw, &i->imgh);
+	i->exit = mlx_xpm_file_to_image(i->mlx, "image/exits/exit1.xpm", &i->imgw, &i->imgh);
 }
 
 void	draw_map(t_info *i)
@@ -28,6 +28,7 @@ void	draw_map(t_info *i)
 
 	y = 0;
 	i->y = 0;
+	i->colle = mlx_xpm_file_to_image(i->mlx, "image/coins/coin1.xpm", &i->imgw, &i->imgh);
 	while (i->map[y])
 	{
 		x = 0;

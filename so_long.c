@@ -6,7 +6,7 @@
 /*   By: achraiti <achraiti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/21 16:51:11 by achraiti          #+#    #+#             */
-/*   Updated: 2024/01/01 10:40:52 by achraiti         ###   ########.fr       */
+/*   Updated: 2024/02/18 15:01:05 by achraiti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,8 @@ int	main(int argc, char **argv)
 		print_error("Error\nYou didn't provide a map /valid map extention\n");
 	fd = open(argv[1], O_RDWR);
 	if (map_checker(fd, &mapinfo))
-	{
 		show_window(&mapinfo);
-	}
 	else
-	{
 		print_error("Error\nMap is not valid");
-	}
 	close(fd);
 }
