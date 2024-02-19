@@ -1,4 +1,7 @@
 # Welcome to So_Long
+
+![Game Screenshot](https://i.imgur.com/QtqAYtO.png)
+
 ## Description:
 So_Long is a simple 2D game project implemented in C programming language using the MiniLibX graphical library.
 The game presents a basic game loop where the player navigates a character through a maze-like environment,
