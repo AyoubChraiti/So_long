@@ -1,4 +1,4 @@
-# Welcome to So_Long
+# My First 2D game
 
 ![Game Screenshot](https://i.imgur.com/QtqAYtO.png)
 
