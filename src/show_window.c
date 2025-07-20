@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/so_long.h"
-
+#include "../inc/so_long.h"
 void	load_images(t_info *i)
 {
 	i->wall = mlx_xpm_file_to_image(i->mlx, "image/walls.xpm", &i->imgw, &i->imgh);

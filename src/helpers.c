@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/so_long.h"
-
+#include "../inc/so_long.h"
 int	close_window(t_info *i)
 {
 	exit_game(i, "Window Closed");

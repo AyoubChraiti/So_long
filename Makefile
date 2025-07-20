@@ -12,7 +12,7 @@
 
 NAME = so_long
 
-SRC = check_map.c so_long.c check_path.c map_checker.c show_window.c moving.c helpers.c
+SRC = src/check_map.c src/so_long.c src/check_path.c src/map_checker.c src/show_window.c src/moving.c src/helpers.c
 
 OBJ = $(SRC:.c=.o)
 

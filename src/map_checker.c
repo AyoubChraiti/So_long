@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/so_long.h"
-
+#include "../inc/so_long.h"
 char	**read_and_join_map(int fd)
 {
 	char	*line;

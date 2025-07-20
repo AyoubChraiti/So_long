@@ -10,8 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "inc/so_long.h"
-
+#include "../inc/so_long.h"
 void	update_movements(t_info *i)
 {
 	i->mv++;
