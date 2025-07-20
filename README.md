@@ -7,8 +7,6 @@
 **So_Long** is a simple 2D maze game built in C using the **MiniLibX** graphical library.  
 The goal? Navigate a character through a maze, **collect items**, avoid obstacles, and reach the **exit** to win.
 
-This project was developed as part of the **42 school curriculum**, focusing on game loops, input handling, rendering, and basic graphics programming.
-
 ---
 
 ## 📚 Table of Contents
@@ -53,10 +51,6 @@ To build and run **So_Long**, follow these steps:
 
 1. **Clone the repository**:
 ```bash
-   git clone <repository-url>
-```
-
-```bash
 git clone the repo
 ```
 - Navigate to the project directory:
@@ -95,11 +89,20 @@ You must collect all collectibles (C) before you can use the exit (E).
 The map is made up of simple ASCII-based tiles:
 
 Symbol | Meaning
+---
 P      | Player start
-E	   | Exit
-C	   | Collectible
-1	   | Wall/Obstacle
-0	   | Empty space
+E	    | Exit
+C	    | Collectible
+1	    | Wall/Obstacle
+0	    | Empty space
+
+| Symbol     | Meaning         |
+| -------    | --------------- |
+| P          | Player start    |
+| E          | Exit            |
+| C          | Collectible     |
+| 1          | Wall/Obstacle   |
+| 0          | Empty space     |
 
 ### 7. Contributing <a name="contributing"></a>
 Contributions to So_Long are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request on the GitHub repository.
