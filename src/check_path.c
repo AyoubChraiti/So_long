@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "so_long.h"
+#include "inc/so_long.h"
 
 char	**copy_map(char **original, int rows, int cols)
 {
