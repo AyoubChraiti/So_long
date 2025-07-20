@@ -15,7 +15,6 @@ Usage
 Controls
 Gameplay
 Contributing
-License
 
 ### 1. Introduction <a name="introduction"></a>
 So_Long is a project developed as part of the 42 school curriculum.
@@ -32,7 +31,7 @@ To install and run So_Long on your system, follow these steps:
 Clone the repository to your local machine:
 bash
 ```bash
-git clone [repository_url]
+git clone the repo
 ```
 Navigate to the project directory:
 ```bash
@@ -45,9 +44,9 @@ make
 Run the executable:
 ```bash
 
-./so_long [map_file]
+./so_long <any map file>
 ```
-Replace [map_file] with the path to the map file you want to load.
+Replace <"any map file"> with the path to the map file you want to load.
 
 ### 4. Usage <a name="usage"></a>
 The game loads the map specified as a command-line argument.
